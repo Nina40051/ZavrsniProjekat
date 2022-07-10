@@ -1,4 +1,4 @@
-package tests;
+package DomaceTests;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

@@ -17,5 +17,6 @@ public class Strings {
     public static final String SHOPPING_CART_URL="https://www.ikea.com/rs/sr/shoppingcart/";
     public static final String SHOPPING_CART_MESSAGE="Tvoja korpa je prazna";
 
+
 }
 

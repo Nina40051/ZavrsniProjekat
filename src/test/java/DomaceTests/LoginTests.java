@@ -1,14 +1,13 @@
-package tests.LoginTests;
+package DomaceTests;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import pages.BasePage;
+import DomacePages.BasePage;
 import pages.Strings;
-import tests.BaseTest;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest extends BaseTest {
+public class LoginTests extends BaseTest {
 
 
     @Test
@@ -19,7 +18,9 @@ public class LoginTest extends BaseTest {
         3.Insert valid email
         4.Insert valid password
         5.Enter submit button
-        6.Verify the user is logged in
+
+        Expected results:
+        The user is logged in
          */
 
     public void LoginTest (){
@@ -67,7 +68,9 @@ public class LoginTest extends BaseTest {
         3.Insert valid email
         4.Insert invalid password
         5.Enter submit button
-        6.Verify the user is not logged in
+
+         Expected results:
+         The user is not logged in
          */
         public void LoginWithValidCredentials (){
             ChromeDriver driver=openChromeDriver();
@@ -122,7 +125,9 @@ public class LoginTest extends BaseTest {
             5.Enter submit button
             6.Enter Moj nalog button
             7.Enter Odjavi se button
-            8.Verify the user is logged out
+
+             Expected results:
+             The user is logged out
              */
 
             public void LoginAndLogoutTest (){

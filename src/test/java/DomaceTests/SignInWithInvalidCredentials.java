@@ -1,8 +1,8 @@
-package tests;
+package DomaceTests;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import pages.RegistrujSePage;
+import DomacePages.RegistrujSePage;
 import pages.Strings;
 
 public class SignInWithInvalidCredentials extends BaseTest {
@@ -20,7 +20,9 @@ public class SignInWithInvalidCredentials extends BaseTest {
             5.Repeat invalid password
             6.Insert invalid result
             7.Click submit button
-            8.Verify that the user is NOT signed in
+
+             Expected results:
+             The user is NOT signed in
              */
             //create RegistrujsePage object
             RegistrujSePage registrujSePage=new RegistrujSePage(driver);

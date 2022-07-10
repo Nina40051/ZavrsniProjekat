@@ -1,4 +1,4 @@
-package pages;
+package DomacePages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;

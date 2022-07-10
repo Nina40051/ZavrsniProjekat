@@ -1,10 +1,10 @@
-package tests;
+package IkeaTests.IkeaInventoryTests;
 
+import IkeaTests.BaseTestIkea;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import pages.IkeaBasePage;
-import pages.IkeaSearchProductsPage;
-import pages.Strings;
+import IkeaPages.IkeaBasePage;
+import IkeaPages.IkeaSearchProductsPage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +19,9 @@ public class AddItemsToCart extends BaseTestIkea {
         2.Insert text in search field
         3.Enter search button
         4.Enter add to cart button
-        5.Verify that the shopping cart icon displays number 1
+
+        Expected results:
+        The shopping cart icon displays number 1
          */
         ChromeDriver driver=openChromeDriver();
         try {

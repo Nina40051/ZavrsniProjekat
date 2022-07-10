@@ -1,4 +1,4 @@
-package pages;
+package IkeaPages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;

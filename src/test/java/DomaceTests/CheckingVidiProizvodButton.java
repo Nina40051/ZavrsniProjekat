@@ -1,9 +1,10 @@
-package tests;
+package DomaceTests;
 
-import org.openqa.selenium.WebElement;
+import DomacePages.BasePage;
+import DomacePages.ProizvodiPretragaPage;
+import pages.Strings;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import pages.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,7 +23,9 @@ public class CheckingVidiProizvodButton extends BaseTest {
             3.Click 'Pretraga' field and insert 'sir'
             4.Click 'Search' button
             5.Click 'Vidi proizvod' button
-            6.Verify that the user is navigated to the actual page
+
+            Expected results:
+            The user is navigated to the actual page
              */
             //create PretragaPage object
             ProizvodiPretragaPage proizvodiPretragaPage=new ProizvodiPretragaPage(driver);
